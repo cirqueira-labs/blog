@@ -17,7 +17,7 @@ series_content_title: Posts from '$series' series
 default_author: ''
 authors_title: Authors
 enable_search: true
-enable_related_content: false
+enable_related_content: true
 search_title: ''
 content_path: content
 site_path: ''
@@ -35,6 +35,8 @@ menu:
   - archive.html
 - - Authors
   - authors.html
+- - About
+  - about.html
 extra:
   colorscheme: gruvbox
 authors: {}

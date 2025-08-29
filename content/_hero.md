@@ -1,5 +1,6 @@
-##### Welcome to Marmite
+##### Bem-vindo ao meu pequeno caos organizado
 
-Marmite is a static site generator written in Rust.
-edit `content/_hero.md` to change this content.
-remove the file to disable the hero section.
+Esse é um local para compartilhar artigos e posts técnicos e aleatórios.
+Fique à vontade para deixar comentários e fazer um donate se achar algo útil ou quiser apoiar.
+
+Abraços, Cirqueira Dev.
