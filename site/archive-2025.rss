@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Cirqueira</title><link>https://cirqueira-labs.github.io/blog</link><description>My Articles and Notes</description><pubDate>Fri, 29 Aug 2025 00:00:00 GMT</pubDate><lastBuildDate>Fri, 29 Aug 2025 14:10:21 GMT</lastBuildDate><generator>marmite</generator><item><title>Welcome to Marmite</title><link>https://cirqueira-labs.github.io/blog/welcome.html</link><guid>https://cirqueira-labs.github.io/blog/welcome.html</guid><pubDate>Fri, 29 Aug 2025 00:00:00 GMT</pubDate><source url="https://cirqueira-labs.github.io/blog">archive-2025</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
+<p>This is your first post!</p>
+<h2><a href="#edit-this-content" aria-hidden="true" class="anchor" id="edit-this-content"></a>Edit this content</h2>
+<p>edit on <code>content/{date}-welcome.md</code></p>
+<h2><a href="#add-more-content" aria-hidden="true" class="anchor" id="add-more-content"></a>Add more content</h2>
+<p>create new markdown files in the <code>content</code> folder</p>
+<p>use <code>marmite --new</code> to create new content</p>
+<h2><a href="#customize-your-site" aria-hidden="true" class="anchor" id="customize-your-site"></a>Customize your site</h2>
+<p>edit <code>marmite.yaml</code> to change site settings</p>
+<p>edit the files starting with <code>_</code> in the <code>content</code> folder to change the layout</p>
+<p>or edit the templates to create a custom layout</p>
+<h2><a href="#deploy-your-site" aria-hidden="true" class="anchor" id="deploy-your-site"></a>Deploy your site</h2>
+<p>read more on <a href="https://rochacbruno.github.io/marmite">marmite documentation</a></p>
+<!-- Content Injected to every content markdown footer -->
+]]></content:encoded></item><item><title>My First Blog Post</title><link>https://cirqueira-labs.github.io/blog/my-first-blog-post.html</link><category>new</category><category>post</category><guid>https://cirqueira-labs.github.io/blog/my-first-blog-post.html</guid><pubDate>Fri, 29 Aug 2025 00:00:00 GMT</pubDate><source url="https://cirqueira-labs.github.io/blog">archive-2025</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
+<!-- Content Injected to every content markdown footer -->
+]]></content:encoded></item></channel></rss>
