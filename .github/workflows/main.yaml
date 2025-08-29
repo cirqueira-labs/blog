@@ -28,6 +28,9 @@ jobs:
       - name: Install marmite 🫙
         run: cargo install marmite
 
+      - name: Clean previous build 🧹
+        run: rm -rf site
+
       - name: Build site 🏗️
         run: marmite . site --debug --colorscheme gruvbox
 
