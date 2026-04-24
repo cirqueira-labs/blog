@@ -38,7 +38,7 @@ menu:
 - - About
   - about.html
 extra:
-  colorscheme: gruvbox
+  colorscheme: default
 authors: {}
 streams: {}
 series: {}
