@@ -1,1 +1,1 @@
-<!-- Content Injected to every content markdown header -->
+<!-- SECURITY WARNING: This content is injected RAW into every page inside the BODY. Do NOT add <script> tags or user-controlled content here — it creates a Stored XSS vector affecting all visitors. CSP is in templates/base.html <head>. -->

@@ -37,6 +37,10 @@ menu:
   - authors.html
 - - About
   - about.html
+- - Donate
+  - donate.html
+- - Books
+  - books.html
 extra:
   colorscheme: default
 authors: {}

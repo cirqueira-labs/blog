@@ -1,1 +1,1 @@
-<!-- Content Injected to every content markdown footer -->
+<!-- SECURITY WARNING: This content is injected RAW into every page. Do NOT add <script> tags or user-controlled content here — it creates a Stored XSS vector affecting all visitors. -->

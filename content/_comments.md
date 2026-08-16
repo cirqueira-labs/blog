@@ -1,12 +1,16 @@
-##### Comments
-**edit `content/_comments.md` to adjust for your own site/repo**
-
-**remove** the file to disable comments
-
-<script src='https://utteranc.es/client.js'
-repo='rochacbruno/issue-bin'
-issue-term='pathname'
-theme='preferred-color-scheme'
-crossorigin='anonymous'
-async>
+<script src="https://giscus.app/client.js"
+        integrity="sha384-MtCq78szuiJXqP27XTOR82tlg5Em9dznUym/YGcdt1SMJ5mAleh9wy/EFY6eTJsN"
+        crossorigin="anonymous"
+        data-repo="cirqueira-labs/blog"
+        data-repo-id="R_kgDOPlLwuw"
+        data-category="General"
+        data-category-id="DIC_kwDOPlLwu84C-DDg"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="pt"
+        async>
 </script>

@@ -1,0 +1,15 @@
+# secrets
+*.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# keys
+*.pem
+*.key
+*.p12
+
+# build output (if site/ becomes untracked in the future)
+/site/

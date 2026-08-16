@@ -43,7 +43,7 @@ jobs:
             ~/.cargo/registry
             ~/.cargo/git
             ~/.cargo/bin
-          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          key: ${{ runner.os }}-cargo-${{ hashFiles('.github/workflows/main.yaml') }}
           restore-keys: |
             ${{ runner.os }}-cargo-
 
@@ -53,7 +53,7 @@ jobs:
         with:
           path: |
             target
-          key: ${{ runner.os }}-target-${{ hashFiles('**/Cargo.lock') }}
+          key: ${{ runner.os }}-target-${{ hashFiles('.github/workflows/main.yaml') }}
           restore-keys: |
             ${{ runner.os }}-target-
 
@@ -62,9 +62,12 @@ jobs:
         run: |
           if ! command -v marmite &> /dev/null; then
             echo "Instalando marmite..."
-            cargo install marmite
+            cargo install marmite --version 0.2.6
+          elif ! marmite --version | grep -q "0.2.6"; then
+            echo "Versão do marmite desatualizada, reinstalando..."
+            cargo install marmite --version 0.2.6
           else
-            echo "Marmite já instalado, pulando..."
+            echo "Marmite 0.2.6 já instalado, pulando..."
           fi
 
       - name: Prepare build environment 🧹
